@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GanHuo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_zhihu">热门新闻</string>
+    <string name="menu_gank">干货</string>
+    <string name="menu_pic">美图</string>
+    <string name="menu_others">其他</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_setting">设置</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

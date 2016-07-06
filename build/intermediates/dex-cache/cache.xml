@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/glide-3.7.0-719e74d50a09daf297d96c65257f8f7adecce2bc.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-beta1/support-annotations-24.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0-beta1-1ac784113d83759d144c7b0b54331d35d0bc8a35.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0-beta1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a2d637cb6a100dd3a605bd094a8297ccb6dab18b">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-46bd358e9a40bda00ae47000842b95d4488e4838.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0-56eabedc13fd76a688633ae3f91103ff40d35848.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-7e9b7f60a39ff336b06b99f2a2596d7f14d69ff6.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/libs/joda-time-2.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="89e9725439adffbbd41c5f5c215c136082b34a7f">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/joda-time-2.4-40a0170e0714bcaa26672a42a4042764a856e4f3.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-cc98298a1ee2b00efb2a93358954b93ad49735ce.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/okio-1.8.0-8878532b4ab1bf6cae8666ce3ee3cd303f6ad47e.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-9f2c15f867b98258db7953f47dd6eee3c99f0caf.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-020ddc302e2f530282f4d5b2cc3d8b8a6bca545e.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-07499b145d3a0acd5616686da33afa6891644f72.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-dfc4d7b34da25c4f805df9af46f05d25431ae2dd.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-7f2f76350adf1883efe83e3f4067d64d22afbd26.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/rxjava-1.1.5-97b628f648fa002837ba0184abe25a49613763dd.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0-de0d2e1194d498606f5a61be350760bb4b49a562.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-757bdf12b3fb4c0b46387fd14bbcabd77f3ec694.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/classes-815cb8a76da588f1cbab6780ef8218545b0aca68.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0-7150d19fc5e84cfe1a32c24a0a5fb34af0137adb.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0-ab07115cac5dc785247974cf812f305e7156b3f3.jar" />
+    </item>
+    <item
+        jar="/Users/yangjingsong/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/yangjingsong/Documents/MyApplication2/app/build/intermediates/pre-dexed/debug/gson-2.7-9c6305b549cec9a00a5ab42c5a9e3f89c69e04e6.jar" />
+    </item>
+
+</items>
