@@ -51,7 +51,7 @@ public abstract class BaseFragment<P extends IPresenter> extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        ButterKnife.unbind(this);
+
 
 
     }

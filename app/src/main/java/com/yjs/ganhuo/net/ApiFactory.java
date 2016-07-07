@@ -8,6 +8,7 @@ import com.yjs.ganhuo.URL;
 public class ApiFactory {
     private static GankApi mApi = null;
     private static ZhihuApi zhiApi = null;
+    private static JiandanApi jiandanApi = null;
     private static Object watch = new Object();
     public ApiFactory(){
 
@@ -28,5 +29,14 @@ public class ApiFactory {
             }
         }
         return zhiApi;
+    }
+
+    public static JiandanApi getJiandanApi(){
+        synchronized (watch){
+            if(jiandanApi == null){
+                jiandanApi = ApiService.getApi(URL.JianDan_BASEURL,JiandanApi.class);
+            }
+        }
+        return jiandanApi;
     }
 }

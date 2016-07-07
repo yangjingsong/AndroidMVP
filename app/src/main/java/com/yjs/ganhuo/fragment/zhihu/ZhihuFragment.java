@@ -41,6 +41,11 @@ public class ZhihuFragment extends BasePullToRefreshFragment<ZhihuDailyItem,Zhih
     }
 
     @Override
+    protected void initDatas() {
+
+    }
+
+    @Override
     protected void refreshDataWithPresenter() {
         presenter = new ZhihuPresenter(this,getActivity());
         pageNum = 0;

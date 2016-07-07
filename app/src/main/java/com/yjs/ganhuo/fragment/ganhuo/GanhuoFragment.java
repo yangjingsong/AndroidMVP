@@ -33,6 +33,11 @@ public class GanhuoFragment extends BasePullToRefreshFragment<GankDailyEntity, G
     }
 
     @Override
+    protected void initDatas() {
+
+    }
+
+    @Override
     protected void refreshDataWithPresenter() {
         type = getArguments().getString("type");
         ganhuoPresenter = new GanhuoPresenter(this, getActivity());

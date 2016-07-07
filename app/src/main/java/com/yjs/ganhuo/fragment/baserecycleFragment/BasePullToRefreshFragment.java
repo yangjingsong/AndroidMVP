@@ -47,11 +47,11 @@ public abstract class BasePullToRefreshFragment<E,T extends BaseRecyclerAdapter>
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
-                int firstVisiblePosition = ((LinearLayoutManager)recyclerView.getLayoutManager()).findFirstCompletelyVisibleItemPosition();
+                int firstVisiblePosition = ((LinearLayoutManager) recyclerView.getLayoutManager()).findFirstCompletelyVisibleItemPosition();
 
-                if(((LinearLayoutManager)recyclerView.getLayoutManager()).findLastCompletelyVisibleItemPosition() + 1
-                        == recyclerView.getAdapter().getItemCount()){
-                   loadDataWithPresenter();
+                if (((LinearLayoutManager) recyclerView.getLayoutManager()).findLastCompletelyVisibleItemPosition() + 1
+                        == recyclerView.getAdapter().getItemCount()) {
+                    loadDataWithPresenter();
 
                 }
                 doSomethingOnScroll(firstVisiblePosition);
@@ -62,8 +62,11 @@ public abstract class BasePullToRefreshFragment<E,T extends BaseRecyclerAdapter>
         });
 
         refreshDataWithPresenter();
+        initDatas();
 
     }
+
+    protected abstract void initDatas();
 
     @Override
     public void refreshData(List<E> data) {

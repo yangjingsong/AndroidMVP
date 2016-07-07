@@ -14,6 +14,8 @@ import android.view.MenuItem;
 
 
 import com.yjs.ganhuo.fragment.ganhuo.GanhuoFragment;
+import com.yjs.ganhuo.fragment.jiandan.JokeFragment;
+import com.yjs.ganhuo.fragment.picture.PictureFragment;
 import com.yjs.ganhuo.fragment.tabFragment.TabFragmentView;
 import com.yjs.ganhuo.fragment.zhihu.ZhihuFragment;
 import com.yjs.ganhuo.fragment.tabFragment.TabViewPagerFragment;
@@ -30,13 +32,15 @@ public class MainActivity extends AppCompatActivity
     NavigationView navView;
     ZhihuFragment zhihuFragment;
     TabViewPagerFragment tabViewPagerFragment;
+    PictureFragment pictureFragment;
+    JokeFragment jokeFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -96,11 +100,16 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camara) {
             replaceFragment(zhihuFragment == null?new ZhihuFragment():zhihuFragment);
         } else if (id == R.id.nav_gallery) {
-            replaceFragment(tabViewPagerFragment == null?new TabViewPagerFragment():tabViewPagerFragment);
+            toolbar.setTitle("干货");
+            replaceFragment(tabViewPagerFragment == null ? new TabViewPagerFragment() : tabViewPagerFragment);
 
         } else if (id == R.id.nav_slideshow) {
+            toolbar.setTitle("美图");
+            replaceFragment(pictureFragment == null?new PictureFragment():pictureFragment);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.joke) {
+            toolbar.setTitle("段子");
+             replaceFragment(jokeFragment == null?new JokeFragment():jokeFragment);
 
         } else if (id == R.id.nav_send) {
 
